@@ -1,81 +1,27 @@
-/* registro geral*/
-/* Fazendo primeiro um resete em tudo, zerando margens, bordas e etc...*/
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family:  Helvetica;
-    color: #323232;
-    border: none;
-
-}
-
-textarea :focus, input :focus{
-    outline: none;
-}
-a{
-    font-size: .8rem;
-}
-a :hover{
-    color: #08558B;
-}
-/* container do login*/
-#login-container{
-    background-color: #fff;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px 30px;
-    margin-top: 10vh;
-    border-radius: 12px;
+.form{
+    width: 30rem;
+    margin: auto;
     text-align: center;
+    background-color: rgb(235 235 235);
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+    
 }
-/* formulário*/
-form{
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-label, input{
-    display: block;
+h1{
     width: 100%;
-    text-align: left;
-}
-label{
-    font-weight: bold;
-    font-size: .8rem;
-}
-input{
-    border-bottom: 2px solid #323232;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-}
-input :focus{
-    border-bottom: 2px solid #85558B;
-}
-#forgot-pass{
-    text-align: right;
-    display: block;
-}
-input[type="submit"]{
     text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    border: none;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 30px;
-    color: #fff;
-    background-color: #08558B;
-    cursor: pointer;
-}
-input[type="submit"] :hover{
-    color: #1b223c;
-    transition: 5s;
 }
 
-/* registar*/
-#register-container p{
-    margin-bottom: 10px;
+img{
+height: 15rem;
+width: 100%;
+margin: 1.5rem auto 1.5rem auto;
+}
+
+.full-width{
+    width: 100%;
+}
+button{
+    margin-top: 1.5rem;
 
 }
