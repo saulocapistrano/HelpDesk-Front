@@ -1,20 +1,35 @@
-<div class="container">
-    <form class="form-input mat-elevation-z4">
-        <h1>Login HelpDesk</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login<h2>HelpDesk</h2></title>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="login.component.css">
+</head>
+<body>
+    <div id="login-container">
+        <h1>Login</h1>
+        <form action="">
+            <label for="email" >E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="off" >
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Insira sua senha">
+            <a href="#" id="forgot-pass">Redefinir Senha</a>
+            <input type="submit" value="Login">
 
-        <img src="assets/img/human.svg">
-        <mat-form-field class="full-width mat-elevation-z4" appearance="fill">
-          <mat-label>e-mail</mat-label>
-          <input type="text" placeholder="Ex. email@gmail.com">
-        </mat-form-field>
-        
-        <mat-form-field class="full-width mat-elevation-z4" appearance="fill">
-            <mat-label>Senha</mat-label>
-            <input type="password" placeholder=" Ex. 123" >
-          </mat-form-field>
-          <button class="full-width mat-elevation-z4" mat-flat-button color="primary">Primary</button>
-        
-      </form>
-      
+        </form>
+       
+        <div id="register-container">
+            <p>Ainda não tem uma conta?</p>
+            <a href="#">Registre-se</a>
 
-</div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

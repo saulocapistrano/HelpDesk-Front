@@ -1,23 +1,81 @@
-.container{
-    height: 100%;
-    background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(140,32,127,1) 38%, rgba(116,63,149,1) 70%, rgba(0,212,255,1) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* registro geral*/
+/* Fazendo primeiro um resete em tudo, zerando margens, bordas e etc...*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    color: #323232;
+    border: none;
+
 }
 
-.form-input{
-    width: 30rem;
-    margin: auto;
-    background-color:rgb (235, 235, 235);
-    padding: 4px;
-    border-radius: 2px;
+textarea :focus, input :focus{
+    outline: none;
 }
-.full-width{
-    width: 100%;
+a{
+    font-size: .8rem;
 }
-img{
-    height: 15rem;
+a :hover{
+    color: #08558B;
+}
+/* container do login*/
+#login-container{
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 12px;
+    text-align: center;
+}
+/* formulário*/
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input{
+    display: block;
     width: 100%;
-    margin: auto;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input :focus{
+    border-bottom: 2px solid #85558B;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558B;
+    cursor: pointer;
+}
+input[type="submit"] :hover{
+    color: #1b223c;
+    transition: 5s;
+}
+
+/* registar*/
+#register-container p{
+    margin-bottom: 10px;
+
 }
